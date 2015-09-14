@@ -6,7 +6,8 @@ but I contribute to [Wget](http://www.gnu.org/software/wget/) as well.
 
 Please let me know if you have other thoughts or comments on this document.
 
-File issues or pull-requests: XXXX
+[File issues or pull-requests](https://github.com/bagder/docs) if you find
+problems or have improvements.
 
 ## What both commands do
 
