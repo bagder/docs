@@ -36,7 +36,7 @@ problems or have improvements.
 
 - *Single shot*. curl is basically made to do single-shot transfers of
   data. It transfers just the URLs that the user specifies, and does not
-  contain any recursive downloading logic nor any sort of HTML parser.</li>
+  contain any recursive downloading logic nor any sort of HTML parser.
 
 - *More protocols*. curl supports FTP, FTPS, Gopher, HTTP, HTTPS, SCP,
   SFTP, TFTP, TELNET, DICT, LDAP, LDAPS, FILE, POP3, IMAP, SMB/CIFS, SMTP, RTMP
@@ -72,9 +72,7 @@ problems or have improvements.
   metrics here: mailing list activity, source code commit frequency and
   release frequency. Anyone following these two projects can see that the curl
   project has a lot higher pace in all these areas, and it has been so for 10+
-  years. <a
-  href="https://www.openhub.net/p/compare?project_0=cURL&project_1=Wget">Compare
-  on openhub</a></li>
+  years. [Compare on openhub](https://www.openhub.net/p/_compare?project_0=cURL&project_1=Wget)
 
 ### Wget
 
