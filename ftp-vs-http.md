@@ -3,7 +3,8 @@
 This is an attempt to document the primary differences between FTP and HTTP,
 as this is commonly asked and also a lot of misconceptions (and outright lies)
 are flying around. If you find any errors, or have additional stuff to add,
-please email me, file an issue or post a pull-request!
+please email me, file an [issue](https://github.com/bagder/docs/issues/new) or
+post a [pull-request](https://github.com/bagder/docs/pulls)!
 
 Both protocols are used for uploads and downloads on the internet, for text
 and for binary, both over TCP/IP. But there are a lot of differences in the
