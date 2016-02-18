@@ -56,9 +56,8 @@ conversions when files are sent between systems of different sorts:
 If the destination uses a different scheme for encoding End-Of-Line characters
 ftp will correct it for the destination. For example unix uses only a NL
 (newLine x'0A') character and MS windows uses CR and LF (CarriageReturn and
-LineFeed x'0D0A'). MS windows includes a CTRL-Z (x'1A') as an end of file
-character, unix does not. EBCDIC specifies that a translation be performed
-from ASCII to EBCDIC (used on old mainframes).
+LineFeed x'0D0A'). EBCDIC specifies that a translation be performed from ASCII
+to EBCDIC (used on old mainframes).
 
 HTTP provides meta-data with files, Content-Type, which clients use but FTP
 has no such thing. The meta data can thus be used by clients to interpret the
