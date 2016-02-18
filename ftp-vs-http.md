@@ -175,8 +175,9 @@ connection is the ability to detect premature connection shutdowns.
 ## Compression
 
 HTTP provides a way for the client and server to negotiate and choose among
-sevel compression algorithms. The gzip algorithm being the perhaps most
-compact one.
+sevel compression algorithms. The gzip algorithm being the perhaps most widely
+used one, with brotli being a recent addition that often compresses data even
+better.
 
 FTP offers an official "built-in" run length encoding that compresses the
 amount of data to send, but not by a great deal on ordinary binary data. It
