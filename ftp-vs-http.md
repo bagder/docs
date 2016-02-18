@@ -82,8 +82,8 @@ Something related, although not similar, is FTP's support for requesting
 multiple files to get transferred in parallel using the same control
 connection. That's of course using new TCP connections for each transfer so
 it'll get different performance metrics. Also, this requires that the server
-supports doing this sort of operation (ie accepting new commands like there is
-a transfer in progress), which many servers will not.
+supports doing this sort of operation (ie accepting new commands while there
+is a transfer in progress), which many servers will not.
 
 ## FTP Command/Response
 
