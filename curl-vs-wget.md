@@ -30,7 +30,7 @@ problems or have improvements.
   internally. It is also slightly harder to make a library than a "mere"
   command line tool.
 
-- *pipes*. curl works more llke the traditional unix cat command, it sends
+- *pipes*. curl works more like the traditional unix cat command, it sends
   more stuff to stdout, and reads more from stdin in a "everything is a pipe"
   manner. Wget is more like cp, using the same analogue.
 
