@@ -1,8 +1,8 @@
 # curl vs Wget
 
 The main differences as I (Daniel Stenberg) see them. Please consider my bias
-towards [curl](http://curl.haxx.se) since after all, curl curl is my baby -
-but I contribute to [Wget](http://www.gnu.org/software/wget/) as well.
+towards [curl](http://curl.haxx.se) since after all, curl is my baby - but I
+contribute to [Wget](http://www.gnu.org/software/wget/) as well.
 
 Please let me know if you have other thoughts or comments on this document.
 
