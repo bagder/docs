@@ -97,9 +97,6 @@ tracked back no earlier than the end of
 - Wget requires *no extra options* to simply download a remote URL to a local
   file, while curl requires -o or -O.
 
-- Wget supports the *Public Suffix List* for handling cookie domains,
-  curl does not.
-
 - Wget supports only *GnuTLS or OpenSSL* for SSL/TLS support
 
 - Wget supports only *Basic* auth as the only auth type over HTTP proxy
@@ -108,6 +105,10 @@ tracked back no earlier than the end of
 
 - Its ability to recover from a prematurely broken transfer and *continue
   downloading* has no counterpart in curl.
+
+- Wget enables more features by default: cookies, redirect-following, time
+  stamping from the remote resource etc. With curl most of those features need
+  to be explicitly enabled.
 
 - Wget can be typed in using only the left hand on a qwerty keyboard!
 
