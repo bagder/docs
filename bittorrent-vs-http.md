@@ -34,7 +34,7 @@ audio or video stream, is problematic to distribute via bittorrent given the
 current design.
 
 While clients (probably) could ask for chunks in a chronological order and
-then get the data in a sequential manner that is not now clients typically
+then get the data in a sequential manner that is not how clients typically
 work, and it would greaty defeat some of the primary purposes of bittorrent as
 it will not at all distribute the load as evenly among the peers as the
 "random access" method does.
