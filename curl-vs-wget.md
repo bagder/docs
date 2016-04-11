@@ -62,7 +62,7 @@ problems or have improvements.
   "upload" and in general emulate browsers and do HTTP automation to a wider
   extent
 
-- curl supports gzip and inflate Content-Encoding and does *automatic decompression*
+- curl supports gzip and deflate Content-Encoding and does *automatic decompression*
 
 - curl offers and performs decompression of *Transfer-Encoded HTTP*, wget doesn't
 
