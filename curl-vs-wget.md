@@ -48,7 +48,7 @@ problems or have improvements.
 
 - *More SSL libraries* and SSL support. curl can be built with one out
   of eleven (11!) different SSL/TLS libraries, and it offers more control and
-  wider support for protocol details. curl supports public key pinning.
+  wider support for protocol details.
 
 - *HTTP auth*. curl supports more HTTP authentication methods,
   especially over HTTP proxies: Basic, Digest, NTLM and Negotiate
