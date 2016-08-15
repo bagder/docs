@@ -19,14 +19,11 @@
 - Documented in a [man page](https://curl.haxx.se/docs/manpage.html) for non-web documentation
 - supports HTTP/1.0 requests
 - features URL "globbing" for ranges and sequences
-
 - Allows more invasive header modifications, like passing in invalid letters
   in custom headers (Höst:), replacing Content-Length: in a POST and removing
   the Host: header from a request. Or just adding a header *without* a space
   after the colon.
-
 - Does httpie do happy eyeballs?
-
 - Supports custom connection tricks like with [--resolve
   ](https://curl.haxx.se/docs/manpage.html#--resolve) and
   [--connect-to](https://curl.haxx.se/docs/manpage.html#--connect-to)
