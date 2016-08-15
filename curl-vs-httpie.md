@@ -7,6 +7,7 @@
 - Support `-v` to show sent request headers
 - Support HTTP and SOCKS proxies
 - Can do HTTP Range requests
+- netrc support
 
 ## curl
 
@@ -14,11 +15,21 @@
 - supports many other protocols as well apart from HTTP(S)
 - supports any amount of URLs on the command line
 - can send binary POSTs
-- Allows invalid letters in custom headers, like Höst:
-- Allow users to replace Content-Length: in a POST
 - Supports multiple HTTP methods in a single command line for different URLs
-- Is documented in a man page for non-web documentation
+- Documented in a [man page](https://curl.haxx.se/docs/manpage.html) for non-web documentation
 - supports HTTP/1.0 requests
+- features URL "globbing" for ranges and sequences
+
+- Allows more invasive header modifications, like passing in invalid letters
+  in custom headers (Höst:), replacing Content-Length: in a POST and removing
+  the Host: header from a request. Or just adding a header *without* a space
+  after the colon.
+
+- Does httpie do happy eyeballs?
+
+- Supports custom connection tricks like with [--resolve
+  ](https://curl.haxx.se/docs/manpage.html#--resolve) and
+  [--connect-to](https://curl.haxx.se/docs/manpage.html#--connect-to)
 
 ## HTTPie "cURL-like tool for humans"
 
