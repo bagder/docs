@@ -221,6 +221,10 @@ format so it's a pain to write programs to parse the output. Latter specs
 (RFC3659) have addressed this with new commands like MLSD, but they are not
 widely implemented or supported by neither servers nor clients.
 
+Directory listings over HTTP are usually done either by serving HTLM showing
+the dir contents or by the use of WebDAV which is an additional protocol run
+"over" or in addition to HTTP.
+
 ## Proxy Support
 
 One of the biggest selling points for HTTP over FTP is its support for
