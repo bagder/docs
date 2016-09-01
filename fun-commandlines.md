@@ -8,3 +8,5 @@ ideally say something funny or nonsensical.
 `curl -eats -wgets -breakfast http://example.com`
 
 `curl -curl -curl -curl -eats -wget -For=breakfast http://example.com`
+
+`curl -the -untergang: -is -close http://example.com`
