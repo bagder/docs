@@ -23,7 +23,7 @@
   in custom headers (Höst:), replacing Content-Length: in a POST and removing
   the Host: header from a request. Or just adding a header *without* a space
   after the colon.
-- Does httpie do happy eyeballs?
+- Supports happy eyeballs or explicit ipv4/ipv6 use
 - Supports custom connection tricks like with [--resolve
   ](https://curl.haxx.se/docs/manpage.html#--resolve) and
   [--connect-to](https://curl.haxx.se/docs/manpage.html#--connect-to)
@@ -43,3 +43,4 @@
 - Has an "Auth plugin" system that supports many more auth types than curl
 - Has no official man page
 - HTTP/2 ?
+- Happy eyeballs?
