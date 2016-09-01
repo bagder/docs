@@ -10,3 +10,5 @@ ideally say something funny or nonsensical.
 `curl -curl -curl -curl -eats -wget -For=breakfast http://example.com`
 
 `curl -the -untergang: -is -close http://example.com`
+
+Reverse lines: `curl --lruc http://example.com`
