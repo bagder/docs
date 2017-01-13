@@ -9,6 +9,14 @@
 - Can do HTTP Range requests
 - netrc support
 
+## Transfer performance comparsion
+
+Tranfering 80GB from a localhost Apache HTTP server to /dev/null on Linux.
+
+httpie 0.9.8 needed 153 seconds. **535 MB/sec**
+
+curl 7.51.0 needed 25 seconds. **3276 MB/sec**
+
 ## curl
 
 - Written in C and uses libcurl
@@ -20,8 +28,8 @@
 - supports HTTP/1.0 requests
 - features URL "globbing" for ranges and sequences
 - Allows more invasive header modifications, like passing in invalid letters
-  in custom headers (Höst:), replacing Content-Length: in a POST and removing
-  the Host: header from a request. Or just adding a header *without* a space
+  in custom headers (`Höst:`), replacing `Content-Length:` in a POST and removing
+  the `Host:`  header from a request. Or just adding a header *without* a space
   after the colon.
 - Supports happy eyeballs or explicit ipv4/ipv6 use
 - Supports custom connection tricks like with [--resolve
@@ -35,7 +43,7 @@
 - Has JSON support
 - Colored output
 - Assumes "name=value" for POSTS (name:value or just "data" is hard/impossible
-  to send, not to mention POSTing "Connection:" - which instead will be
+  to send, not to mention POSTing `Connection:` - which instead will be
   intepreted as remove that header please)
 - Can you do multipart a POST with two text-only fields?
 - Forbids UTF-8 symbols in HTTP request headers
