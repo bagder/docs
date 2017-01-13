@@ -16,7 +16,7 @@
 - supports any amount of URLs on the command line
 - can send binary POSTs
 - Supports multiple HTTP methods in a single command line for different URLs
-- Documented in a [man page](https://curl.haxx.se/docs/manpage.html) for non-web documentation
+- Documented in a [man page](https://curl.haxx.se/docs/manpage.html) for offline documentation
 - supports HTTP/1.0 requests
 - features URL "globbing" for ranges and sequences
 - Allows more invasive header modifications, like passing in invalid letters
