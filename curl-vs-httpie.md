@@ -39,6 +39,7 @@ curl 7.51.0 needed 25 seconds. **3276 MB/sec**
 - Supports custom connection tricks like with [--resolve
   ](https://curl.haxx.se/docs/manpage.html#--resolve) and
   [--connect-to](https://curl.haxx.se/docs/manpage.html#--connect-to)
+- HTTP/2 support (for both HTTP:// and HTTPS:// URLs)
 
 ## HTTPie "cURL-like tool for humans"
 
@@ -49,7 +50,7 @@ curl 7.51.0 needed 25 seconds. **3276 MB/sec**
 - Assumes "name=value" for POSTS (name:value or just "data" is hard/impossible
   to send, not to mention POSTing `Connection:` - which instead will be
   intepreted as remove that header please)
-- Can you do multipart a POST with two text-only fields?
+- Can you do a multipart POST with two text-only fields?
 - Forbids UTF-8 symbols in HTTP request headers
 - Doesn't allow a user to change the Content-Length: header
 - Has an "Auth plugin" system that supports many more auth types than curl
