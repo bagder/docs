@@ -1,5 +1,9 @@
 # [curl](https://curl.haxx.se/) vs [HTTPie](https://github.com/jkbrzt/httpie)
 
+The main differences as I (Daniel Stenberg) see them. Please consider my bias towards curl since after all, curl is my baby.
+
+Please let me know if you have other thoughts or comments on this document. File [issues](https://github.com/bagder/docs/issues) or [pull-requests](https://github.com/bagder/docs/pulls) if you find problems or have improvements.
+
 ## What both commands do
 
 - Performs HTTP(S) operations specified as URLs
