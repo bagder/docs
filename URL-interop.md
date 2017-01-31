@@ -2,19 +2,23 @@
 
 (or RFC 3986 vs WHATWG URL Specification vs the real world)
 
-This document is an attempt to describe where and how RFC 3986 (86), RFC 3987
-(87) and the WHATWG URL Specification (TWUS) differ. This might be useful
-input when trying to interop with URLs on the modern Internet.
+This document is an attempt to describe where and how [RFC
+3986](https://tools.ietf.org/html/rfc3986) (86), [RFC
+3987](https://tools.ietf.org/html/rfc3987) (87) and [the WHATWG URL
+Specification](https://url.spec.whatwg.org/) (TWUS) differ. This might be
+useful input when trying to interop with URLs on the modern Internet.
 
 This document focuses on network-using URL schemes (http, https, ftp, etc) as
 well as 'file'.
 
 This is a best-effort and describes the situation as we understand it at the
-time of writing. Since the TWUS document is "living", chances are it has
-changed since we last updated this document.
+time of writing. Since the TWUS document is "living" and software keep getting
+updated, chances are conditions have changed since we last updated this
+document!
 
 If you find mistakes or have additional interop issues to suggest, please file
-an issue or a pull request!
+[an issue](https://github.com/bagder/docs/issues) or [a pull
+request](https://github.com/bagder/docs/pulls)!
 
 ## URL components
 
@@ -46,12 +50,15 @@ There are no known interop issues.
 
 ## Divider
 
-86: specifies this to be exactly "://" for all network-using schemes.
+86: specifies this to be [exactly
+"://"](https://tools.ietf.org/html/rfc3986#section-3) for all network-using
+(hierarchical) schemes.
 
 TWUS: says a parser must accept one to an infinite amount of slashes but a
 producer should use two.
 
-Real world: one and three slash URLs occur, possibly a few using even more.
+Real world: one and three slash URLs occur, possibly a few using even
+more. 'file' URLs are notoriously often malformed.
 
 ## Userinfo
 
@@ -59,8 +66,9 @@ The userinfo field can be used to set user name and password to pass on to the
 server. The use of this field is discouraged since it often means passing
 around the password in plain text and is thus a security risk.
 
-86: specifies that '@' is the separator between the userinfo field and the host
-name.
+86: specifies that ['@' is the
+separator](https://tools.ietf.org/html/rfc3986#section-3.2) between the
+userinfo field and the host name.
 
 TWUS: accepts '@' as part of the user name if it shows up before a colon
 
@@ -70,7 +78,8 @@ TWUS: accepts '@' as part of the user name if it shows up before a colon
 
 ### Numerical IP addresses
 
-86: mentions how IP addresses with a dot-notation are valid
+86: mentions how [IPv4 addresses with a
+dot-notation](https://tools.ietf.org/html/rfc3986#section-3.2.2) are valid
 
 TWUS: specifies that both 32bit numbers ("12345677") as well as partial
 dot-addresses ("127.0") are valid.
@@ -84,7 +93,7 @@ the box.
 Hostnames were traditionally ascii based. When introducing IDN hostnames, it
 has caused problems to the specifications and they are lacking.
 
-87:
+87: Specifies [IDNA 2003 to be used](https://tools.ietf.org/html/rfc3987#section-3.1)
 
 TWUS: Implies that IDNA 2003 should be used
 
