@@ -108,12 +108,13 @@ transitional and some do IDNA 2008 non-transitional.
 
 The port number is a TCP port number between 0 and 65535.
 
-86 and TWUS agree that this is a base-10 number that is virtually unbounded in
+[86](https://tools.ietf.org/html/rfc3986#section-3.2.3) and TWUS agree that
+this is a base-10 number that is virtually unbounded in
 length. 00000000000000000000000000000000000080 means 80 in both specs.
 
 Real world: at least curl and wget2 ignore "rubbish" entered after the number
 all the way to the next component divider (a slash, a pound sign, or a
-question mark).
+question mark). That seems to be a bug according go both 86 and TWUS.
 
 ## Path
 
