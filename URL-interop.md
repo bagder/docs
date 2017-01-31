@@ -30,16 +30,15 @@ Which in an example could look like
 
     http://user:password@www.example.com:80/index.hmtl#top
 
-|-----------|---------------|--------------------------|
-|Component  |Value          |Known interop issues exist|
-|-----------|---------------|--------------------------|
-|scheme     |http           |no                        |
-|divider    |://            |YES                       |
-|userinfo   |user:password  |YES                       |
-|hostname   |www.example.com|YES                       |
-|port number|80             |YES                       |
-|path       |index.html     |YES                       |
-|fragment   |top            |no                        |
+| Component  | Value           | Known interop issues exist |
+|------------|-----------------|----------------------------|
+| scheme     | http            | no                         |
+| divider    | ://             | YES                        |
+| userinfo   | user:password   | YES                        |
+| hostname   | www.example.com | YES                        |
+| port number| 80              | YES                        |
+| path       | index.html      | YES                        |
+| fragment   | top             | no                         |
 
 ## Scheme
 
