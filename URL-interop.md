@@ -107,6 +107,7 @@ and IDNA 2008 TR46/transitional to fail or even to resolve the wrong IP address.
 Some user-agents use IDNA 2003, some do IDNA 2008 TR46/transitional and some do
 IDNA 2008 TR46/non-transitional.
 
+[EURid using IDNA 2008 with Homoglyph Bundling rules](https://eurid.eu/en/register-a-eu-domain/domain-names-with-special-characters-idns/)
 [DENIC describing IDNA 2003/2008 collisions](https://www.denic.de/en/know-how/idn-domains/)
 
 **This is an interop collision**
