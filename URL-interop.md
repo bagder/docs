@@ -90,22 +90,27 @@ the box.
 
 ### IDNA
 
-Hostnames were traditionally ascii based. When introducing IDN hostnames, it
+Hostnames were traditionally ASCII based. When introducing IDN hostnames, it
 has caused problems to the specifications and they are lacking.
 
-86: Is written to work without IDN (ascii characters), so basically it works
+86: Is written to work without IDN (ASCII characters), so basically it works
 with already punycoded domain names.
 
 87: Specifies [IDNA 2003 to be used](https://tools.ietf.org/html/rfc3987#section-3.1)
 
 TWUS: Implies that IDNA 2003 should be used
 
-Real world: A total mess. Some TLD domains (`.de` for example) require IDNA
-2008, which makes user-agents treating the host name according to IDNA 2003
-and IDNA 2008 transitional to fail. Some user-agents use IDNA 2003, some do
-IDNA 2008 transitional and some do IDNA 2008 non-transitional.
+Real world: A total mess. Some national registries (the german DENIC for example)
+require [IDNA 2008](https://tools.ietf.org/html/rfc5890), which makes user-agents
+treating the host name according to [IDNA 2003](https://tools.ietf.org/html/rfc3490)
+and IDNA 2008 TR46/transitional to fail or even to resolve the wrong IP address.
+Some user-agents use IDNA 2003, some do IDNA 2008 TR46/transitional and some do
+IDNA 2008 TR46/non-transitional.
+
+[DENIC describing IDNA 2003/2008 collisions](https://www.denic.de/en/know-how/idn-domains/)
 
 **This is an interop collision**
+**This is a security issue**
 
 ## Port number
 
