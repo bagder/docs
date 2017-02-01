@@ -97,10 +97,10 @@ has caused problems to the specifications and they are lacking.
 
 TWUS: Implies that IDNA 2003 should be used
 
-Real world: A total mess. Some TLD domains require IDNA 2008, which makes
-user-agents treating the host name according to IDNA 2003 and IDNA 2008
-transitional to fail. Some user-agents use IDNA 2003, some do IDNA 2008
-transitional and some do IDNA 2008 non-transitional.
+Real world: A total mess. Some TLD domains (`.de` for example) require IDNA
+2008, which makes user-agents treating the host name according to IDNA 2003
+and IDNA 2008 transitional to fail. Some user-agents use IDNA 2003, some do
+IDNA 2008 transitional and some do IDNA 2008 non-transitional.
 
 **This is an interop collision**
 
