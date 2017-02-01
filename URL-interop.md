@@ -93,6 +93,9 @@ the box.
 Hostnames were traditionally ascii based. When introducing IDN hostnames, it
 has caused problems to the specifications and they are lacking.
 
+86: Is written to work without IDN (ascii characters), so basically it works
+with already punycoded domain names.
+
 87: Specifies [IDNA 2003 to be used](https://tools.ietf.org/html/rfc3987#section-3.1)
 
 TWUS: Implies that IDNA 2003 should be used
