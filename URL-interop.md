@@ -8,6 +8,11 @@ This document is an attempt to describe where and how [RFC
 Specification](https://url.spec.whatwg.org/) (TWUS) differ. This might be
 useful input when trying to interop with URLs on the modern Internet.
 
+"URL" (in the scope of this document) refers to the sequence of characters
+passed into APIs, sent over the network and passed from machine to machine. It
+does not necessarily match what typical browsers accept or support in their
+GUI address bars.
+
 This document focuses on network-using URL schemes (http, https, ftp, etc) as
 well as 'file'.
 
