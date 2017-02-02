@@ -103,7 +103,8 @@ with already punycoded domain names.
 
 87: Specifies [IDNA 2003 to be used](https://tools.ietf.org/html/rfc3987#section-3.1)
 
-TWUS: Implies that IDNA 2003 should be used
+TWUS: Doesn't specify IDNA 2003 nor 2008, but [somehow that's still
+clear](https://github.com/whatwg/url/issues/223)
 
 Real world: A total mess. Some national registries (the german DENIC for example)
 require [IDNA 2008](https://tools.ietf.org/html/rfc5890), which makes user-agents
