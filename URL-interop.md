@@ -166,3 +166,8 @@ redirects, browsers are known to URL-encode them in the next outgoing request.
 
 There are no known interop problems with fragments. The fragment part is not
 included in protocol data that goes over the network.
+
+
+# Test suite
+
+TWUS has a test suite (that only runs in javacript-enabled browsers).
