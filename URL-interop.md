@@ -73,9 +73,9 @@ around the password in plain text and is thus a security risk.
 
 86: specifies that ['@' is the
 separator](https://tools.ietf.org/html/rfc3986#section-3.2) between the
-userinfo field and the host name.
+userinfo field and the host name. The first '@' character really.
 
-TWUS: accepts '@' as part of the user name if it shows up before a colon
+TWUS: instead takes the last '@' before the host name to be the separator
 
 **This is an interop collision**
 
