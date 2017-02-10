@@ -164,4 +164,6 @@ included in protocol data that goes over the network.
 
 # Test suite
 
-TWUS has a test suite (that only runs in javacript-enabled browsers).
+TWUS has a test suite:
+
+https://github.com/w3c/web-platform-tests/blob/master/url/urltestdata.json
