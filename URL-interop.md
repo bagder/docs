@@ -151,7 +151,8 @@ outgoing request.
 ends the URL.
 
 TWUS: allows spaces in URLs and will instead URL-encode it to %20 when sent in
-a request. A TWUS URL thus needs other magic to know where a URL ends.
+a request. A TWUS URL thus needs to end on another character or have another
+method to know the end.
 
 Real world: Spaces are occasionally seen in URLs in the wild, and when used in
 redirects, browsers are known to URL-encode them in the next outgoing request.
