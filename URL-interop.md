@@ -41,7 +41,7 @@ Which in an example could look like
 
 | Component  | Value           | Known interop issues exist |
 |------------|-----------------|----------------------------|
-| scheme     | http            | YES                        |
+| scheme     | http            | no                         |
 | divider    | ://             | YES                        |
 | userinfo   | user:password   | YES                        |
 | hostname   | www.example.com | YES                        |
@@ -51,13 +51,7 @@ Which in an example could look like
 
 ## Scheme
 
-86: **must** have the scheme present
-
-TWUS: Describes in the [4.2 URL
-parsing](https://url.spec.whatwg.org/#url-parsing) section how a parser should
-accept URLs without a scheme. It also there divides parsers into
-"Non-web-browser implementations" without specifying how to make that
-distinction.
+There are no known interop issues.
 
 ## Divider
 
