@@ -59,7 +59,7 @@ There are no known interop issues.
 "://"](https://tools.ietf.org/html/rfc3986#section-3) for all network-using
 (hierarchical) schemes.
 
-TWUS: says a parser must accept one to an infinite amount of slashes but a
+TWUS: says a parser must accept zero to an infinite amount of slashes but a
 producer should use two.
 
 Real world: one and three slash URLs occur, possibly a few using even
