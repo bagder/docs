@@ -118,6 +118,7 @@ IDNA 2008 TR46/non-transitional.
 [DENIC describing IDNA 2003/2008 collisions](https://www.denic.de/en/know-how/idn-domains/)
 
 **This is an interop collision**
+
 **This is a security issue**
 
 ## Port number
@@ -131,6 +132,8 @@ length. 00000000000000000000000000000000000080 means 80 in both specs.
 Real world: at least curl and wget2 ignore "rubbish" entered after the number
 all the way to the next component divider (a slash, a pound sign, or a
 question mark). That seems to be a bug according go both 86 and TWUS.
+
+Also, when using URLs containing multiple port numbers like "http://[127.0.0.1]:11211:80", many URL parsers (Ruby, JavaScript, PHP, perl) will ectract and use the latter port number (80) and ignore the first one, some other parsers will extract and use the first one and some will report errors...
 
 ## Path
 
