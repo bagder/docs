@@ -129,7 +129,7 @@ The port number is a TCP port number between 0 and 65535.
 this is a base-10 number that is virtually unbounded in
 length. 00000000000000000000000000000000000080 means 80 in both specs.
 
-TWUS: limits the number to a 16bit unsigned value (0-6553) while 86 has no such language.
+TWUS: limits the number to a 16bit unsigned value (0-65535) while 86 has no such language.
 
 Real world: at least curl and wget2 ignore "rubbish" entered after the number
 all the way to the next component divider (a slash, a pound sign, or a
