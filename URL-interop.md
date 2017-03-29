@@ -30,14 +30,14 @@ request](https://github.com/bagder/docs/pulls)!
 Put simply, a URL may consist of the following components - many of them are
 optional:
 
-    [scheme][divider][userinfo][hostname][port number][path][fragment]
+    [scheme][divider][userinfo][hostname][port number][path][query][fragment]
 
 Each component is separated from the following component with a divider
 character.
 
 Which in an example could look like
 
-    http://user:password@www.example.com:80/index.hmtl#top
+    http://user:password@www.example.com:80/index.hmtl?foo=bar#top
 
 | Component  | Value           | Known interop issues exist |
 |------------|-----------------|----------------------------|
@@ -47,7 +47,8 @@ Which in an example could look like
 | hostname   | www.example.com | YES                        |
 | port number| 80              | YES                        |
 | path       | index.html      | YES                        |
-| fragment   | top             | no                         |
+| query      | foo=bar         | (waiting to get written)   |
+| fragment   | top             | no?                        |
 
 ## Scheme
 
@@ -162,11 +163,20 @@ method to know the end.
 Real world: Spaces are occasionally seen in URLs in the wild, and when used in
 redirects, browsers are known to URL-encode them in the next outgoing request.
 
+### Leading slashes in file: URLS
+
+86: Since unix file systems can handle any number of leading slashes, they have been fine.
+
+TWUS: [No leading slashes](https://github.com/whatwg/url/issues/232) on file: URLs
+
+## query
+
+(I've heard there are problems here.)
+
 ## Fragment
 
 There are no known interop problems with fragments. The fragment part is not
 included in protocol data that goes over the network.
-
 
 # Test suite
 
