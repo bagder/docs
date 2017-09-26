@@ -90,8 +90,8 @@ dot-notation](https://tools.ietf.org/html/rfc3986#section-3.2.2) are valid
 TWUS: specifies that both 32bit numbers ("12345677") as well as partial
 dot-addresses ("127.0") are valid.
 
-Real world: 32 bit numbers occur, and are automagically supported if typical
-OS level name resolver funcitons are used since they often support this out of
+Real world: 32 bit numbers occur, and are automatically supported if typical
+OS level name resolver functions are used since they often support this out of
 the box.
 
 ### IDNA
@@ -107,7 +107,7 @@ with already punycoded domain names.
 TWUS: Doesn't specify IDNA 2003 nor 2008, but [somehow that's still
 clear](https://github.com/whatwg/url/issues/223)
 
-Real world: A total mess. Some national registries (the german DENIC for example)
+Real world: A total mess. Some national registries (the German DENIC for example)
 require [IDNA 2008](https://tools.ietf.org/html/rfc5890), which makes user-agents
 treating the host name according to [IDNA 2003](https://tools.ietf.org/html/rfc3490)
 and IDNA 2008 TR46/transitional to fail or even to resolve the wrong IP address.
