@@ -66,6 +66,9 @@ producer should use two.
 Real world: one and three slash URLs occur, possibly a few using even
 more. 'file' URLs are notoriously often malformed.
 
+Additionally, browsers also happily accept *backslashes* instead of slashes,
+thus redirects to `http:\\\\\example.com` work.
+
 ## Userinfo
 
 The userinfo field can be used to set user name and password to pass on to the
