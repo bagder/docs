@@ -172,6 +172,12 @@ redirects, browsers are known to URL-encode them in the next outgoing request.
 
 TWUS: [No leading slashes](https://github.com/whatwg/url/issues/232) on file: URLs
 
+### Pretending backslashes are slashes
+
+86: Backslashes are not slashes
+
+TWUS: Backslashes should be converted to slashes and then treated as such!
+
 ## query
 
 (I've heard there are problems here.)
