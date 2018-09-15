@@ -26,7 +26,7 @@ What makes HTTP faster:
  - (automatic) compression makes less data get sent
  - no command/response flow minimizes extra round-trips
 
-Ultimately the net outcome of course differ depending on specific details, but
+Ultimately the net outcome of course differs depending on specific details, but
 I would say that for single-shot static files, you won't be able to measure a
 difference. For a single shot small file, you might get it faster with FTP
 (unless the server is at a long round-trip distance). When getting multiple
@@ -67,7 +67,7 @@ contents accordingly.
 
 Transfers with HTTP always also include a set of headers that send meta
 data. FTP does not send such headers. When sending small files, the headers
-can be a significant part of the amount of actual data transfered. HTTP
+can be a significant part of the amount of actual data transferred. HTTP
 headers contain info about things such as last modified date, character
 encoding, server name and version and more.
 
