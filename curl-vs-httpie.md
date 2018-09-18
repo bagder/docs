@@ -6,11 +6,11 @@ Please let me know if you have other thoughts or comments on this document. File
 
 ## What both commands do
 
-- Performs HTTP(S) operations specified as URLs
-- Need an option to follow redirects
+- Perform HTTP(S) operations specified as URLs
+- Require an option to follow redirects
 - Support `-v` to show sent request headers
 - Support HTTP and SOCKS proxies
-- Can do HTTP Range requests
+- HTTP Range requests
 - netrc support
 
 ## Transfer performance comparsion
@@ -54,6 +54,9 @@ curl 7.51.0 needed 25 seconds. **3276 MB/sec**
 - Forbids UTF-8 symbols in HTTP request headers
 - Doesn't allow a user to change the Content-Length: header
 - Has an "Auth plugin" system that supports many more auth types than curl
+- Can't send the same header field name multiple times in a request.
 - Has no official man page
 - HTTP/2 ?
 - Happy eyeballs?
+- HTTPS proxy support (HTTPS to the proxy, independently of the server's protocol) ?
+- brotli support?
