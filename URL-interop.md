@@ -97,6 +97,17 @@ Real world: 32 bit numbers occur, and are automatically supported if typical
 OS level name resolver functions are used since they often support this out of
 the box.
 
+### Different base numericals
+
+86: mentions how each number in a IPv4 dotted address is a *decimal* number
+between 0 and 255.
+
+TWUS: doesn't specify which base the numbers should be specified as, which I
+presume is makes "http://0177.0.0.1" etc valid with an octal number as the
+first 8 bit value.
+
+Real world: getaddrinfo() handles octals and hex in IPv4 addresses.
+
 ### IDNA
 
 Hostnames were traditionally ASCII based. When introducing IDN hostnames, it
