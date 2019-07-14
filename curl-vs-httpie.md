@@ -47,9 +47,10 @@ curl 7.51.0 needed 25 seconds. **3276 MB/sec**
 - Only supports a single URL on the command line
 - Has JSON support
 - Colored output
-- Assumes "name=value" for POSTS (name:value or just "data" is hard/impossible
-  to send, not to mention POSTing `Connection:` - which instead will be
-  intepreted as remove that header please)
+- Assumes "name=value" for POSTS. "name:value" or just "data" is impossible to
+  send as arguments and has to be sent to stdin (not to mention POSTing
+  `Connection:` - which instead will be intepreted as remove that header
+  please)
 - Can you do a multipart POST with two text-only fields?
 - Forbids UTF-8 symbols in HTTP request headers
 - Doesn't allow a user to change the Content-Length: header
