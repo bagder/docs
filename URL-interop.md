@@ -202,4 +202,4 @@ included in protocol data that goes over the network.
 
 TWUS has a test suite:
 
-https://github.com/w3c/web-platform-tests/blob/master/url/urltestdata.json
+https://github.com/web-platform-tests/wpt/blob/master/url/resources/urltestdata.json
