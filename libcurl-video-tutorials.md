@@ -9,7 +9,7 @@ All code will be written using C. A reasonably modern libcurl version is assumed
 
 ## Episodes
 
-0. setup a makefile that builds our code (using Linux and gcc)
+1. setup a makefile that builds our code (using Linux and gcc)
 
 1. simplest possible HTTPS client code
 
