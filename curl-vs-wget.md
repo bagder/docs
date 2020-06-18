@@ -80,6 +80,8 @@ problems or have improvements.
   years. [Compare on
   openhub](https://www.openhub.net/p/_compare?project_0=cURL&project_1=Wget)
 
+- curl comes pre-installed on macOS and Windows 10. Wget does not.
+
 ### Wget
 
 - Wget is *command line only*. There's no library.
@@ -115,6 +117,9 @@ tracked back no earlier than the end of
 - Wget enables more features by default: cookies, redirect-following, time
   stamping from the remote resource etc. With curl most of those features need
   to be explicitly enabled.
+
+- There's a 'wget' in busybox, there's no curl there (within quotes since it is
+  not the actual wget, just a stripped down clone)
 
 - Wget can be typed in using only the left hand on a qwerty keyboard!
 
