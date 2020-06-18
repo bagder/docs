@@ -38,22 +38,23 @@ problems or have improvements.
   data. It transfers just the URLs that the user specifies, and does not
   contain any recursive downloading logic nor any sort of HTML parser.
 
-- *More protocols*. curl supports FTP, FTPS, Gopher, HTTP, HTTPS, SCP,
-  SFTP, TFTP, TELNET, DICT, LDAP, LDAPS, FILE, POP3, IMAP, SMB/CIFS, SMTP, RTMP
-  and RTSP. Wget only supports HTTP, HTTPS and FTP.
+- *More protocols*. curl supports FTP, FTPS, Gopher, HTTP, HTTPS, SCP, SFTP,
+  TFTP, TELNET, DICT, LDAP, LDAPS, MQTT, FILE, POP3, IMAP, SMB/CIFS, SMTP,
+  RTMP and RTSP. Wget supports HTTP, HTTPS and FTP.
  
 - *More portable*. curl builds and runs on lots of more platforms than
   wget. For example: OS/400, TPF and other more "exotic" platforms that aren't
   straight-forward unix clones.
 
-- *More SSL libraries* and SSL support. curl can be built with one out
-  of eleven (11!) different SSL/TLS libraries, and it offers more control and
+- *More SSL libraries* and SSL support. curl can be built with one out of
+  thirteen (13!) different SSL/TLS libraries, and it offers more control and
   wider support for protocol details.
 
 - *HTTP auth*. curl supports more HTTP authentication methods,
   especially over HTTP proxies: Basic, Digest, NTLM and Negotiate
 
-- *SOCKS*. curl supports several SOCKS protocol versions for proxy access
+- *SOCKS*. curl supports SOCKS4 and SOCKS5 for proxy access. With local or
+  proxy base name resolving.
 
 - *Bidirectional*. curl offers upload and sending capabilities. Wget
   only offers plain HTTP POST support.
@@ -62,17 +63,22 @@ problems or have improvements.
   "upload" and in general emulate browsers and do HTTP automation to a wider
   extent
 
-- curl supports gzip and deflate Content-Encoding and does *automatic decompression*
+- curl supports gzip, brotli and deflate Content-Encoding and does *automatic
+  decompression*
 
 - curl offers and performs decompression of *Transfer-Encoded HTTP*, wget doesn't
 
-- curl supports *HTTP/2* and it does dual-stack connects using *Happy Eyeballs*
+- curl supports *HTTP/2*, *HTTP/3*, *alt-svc* and it does dual-stack connects
+  using *Happy Eyeballs*
+
+- curl can do many transfers in parallel (`-Z`)
 
 - *Much more developer activity*. While this can be debated, I consider three
   metrics here: mailing list activity, source code commit frequency and
   release frequency. Anyone following these two projects can see that the curl
   project has a lot higher pace in all these areas, and it has been so for 10+
-  years. [Compare on openhub](https://www.openhub.net/p/_compare?project_0=cURL&project_1=Wget)
+  years. [Compare on
+  openhub](https://www.openhub.net/p/_compare?project_0=cURL&project_1=Wget)
 
 ### Wget
 
@@ -87,7 +93,7 @@ problems or have improvements.
 tracked back no earlier than the end of
   [1996](http://curl.haxx.se/docs/history.html).
 
-- *GPL*. Wget is 100% *GPL v3*. curl is *MIT licensed*.
+- *GPL*. Wget is *GPL v3*. curl is *MIT licensed*.
 
 - *GNU*. Wget is part of the *GNU* project and all copyrights are assigned to
   *FSF*. The curl project is entirely stand-alone and independent with no
@@ -113,6 +119,8 @@ tracked back no earlier than the end of
 - Wget can be typed in using only the left hand on a qwerty keyboard!
 
 ## Additional Stuff
+
+In recent years, **wget2** is the worked-on to-become replacement for wget.
 
 Some have argued that I should compare uploading capabilities with
 [wput](http://wput.sourceforge.net), but that's a separate tool/project and I
