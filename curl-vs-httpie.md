@@ -40,13 +40,16 @@ curl 7.51.0 needed 25 seconds. **3276 MB/sec**
   ](https://curl.haxx.se/docs/manpage.html#--resolve) and
   [--connect-to](https://curl.haxx.se/docs/manpage.html#--connect-to)
 - HTTP/2 support (for both HTTP:// and HTTPS:// URLs)
+- HTTP/3 support
+- Offers compression using gzip, brotli and zstd
+- Ships by default in macOS and Windows 10
 
 ## HTTPie "cURL-like tool for humans"
 
 - Written in Python and uses Requests
-- Only supports a single URL on the command line
+- Supports only a single URL on the command line!
 - Has JSON support
-- Colored output
+- Colored output (curl only does bold headers)
 - Assumes "name=value" for POSTS. "name:value" or just "data" is impossible to
   send as arguments and has to be sent to stdin (not to mention POSTing
   `Connection:` - which instead will be intepreted as remove that header
@@ -57,7 +60,7 @@ curl 7.51.0 needed 25 seconds. **3276 MB/sec**
 - Has an "Auth plugin" system that supports many more auth types than curl
 - Can't send the same header field name multiple times in a request.
 - Has no official man page
-- HTTP/2 ?
-- Happy eyeballs?
-- HTTPS proxy support (HTTPS to the proxy, independently of the server's protocol) ?
-- brotli support?
+- No HTTP/2 or HTTP/3 support
+- No Happy eyeballs
+- Lacks HTTPS proxy support (HTTPS to the proxy, independently of the server's protocol)
+- Missing brotli and zstd support
