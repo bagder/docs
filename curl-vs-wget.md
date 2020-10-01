@@ -38,9 +38,9 @@ problems or have improvements.
   data. It transfers just the URLs that the user specifies, and does not
   contain any recursive downloading logic nor any sort of HTML parser.
 
-- *More protocols*. curl supports FTP, FTPS, Gopher, HTTP, HTTPS, SCP, SFTP,
-  TFTP, TELNET, DICT, LDAP, LDAPS, MQTT, FILE, POP3, IMAP, SMB/CIFS, SMTP,
-  RTMP and RTSP. Wget supports HTTP, HTTPS and FTP.
+- *More protocols*. curl supports FTP(S), Gopher, HTTP(S), SCP, SFTP, TFTP,
+  TELNET, DICT, LDAP(S), MQTT, FILE, POP3(S), IMAP(S), SMB/CIFS, SMTP(S), RTMP
+  and RTSP. Wget supports HTTP(S) and FTP.
  
 - *More portable*. curl builds and runs on lots of more platforms than
   wget. For example: OS/400, TPF and other more "exotic" platforms that aren't
@@ -54,7 +54,7 @@ problems or have improvements.
   especially over HTTP proxies: Basic, Digest, NTLM and Negotiate
 
 - *SOCKS*. curl supports SOCKS4 and SOCKS5 for proxy access. With local or
-  proxy base name resolving.
+  proxy based name resolving.
 
 - *Bidirectional*. curl offers upload and sending capabilities. Wget
   only offers plain HTTP POST support.
@@ -63,10 +63,11 @@ problems or have improvements.
   "upload" and in general emulate browsers and do HTTP automation to a wider
   extent
 
-- curl supports gzip, brotli and deflate Content-Encoding and does *automatic
-  decompression*
+- curl supports gzip, brotli, zstd and deflate Content-Encoding and does
+  *automatic decompression*
 
-- curl offers and performs decompression of *Transfer-Encoded HTTP*, wget doesn't
+- curl offers and performs decompression of *Transfer-Encoded HTTP*, wget
+  doesn't
 
 - curl supports *HTTP/2*, *HTTP/3*, *alt-svc* and it does dual-stack connects
   using *Happy Eyeballs*
@@ -76,7 +77,7 @@ problems or have improvements.
 - *Much more developer activity*. While this can be debated, I consider three
   metrics here: mailing list activity, source code commit frequency and
   release frequency. Anyone following these two projects can see that the curl
-  project has a lot higher pace in all these areas, and it has been so for 10+
+  project has a lot higher pace in all these areas, and it has been so for 15+
   years. [Compare on
   openhub](https://www.openhub.net/p/_compare?project_0=cURL&project_1=Wget)
 
@@ -125,7 +126,8 @@ tracked back no earlier than the end of
 
 ## Additional Stuff
 
-In recent years, **wget2** is the worked-on to-become replacement for wget.
+In recent years, **wget2** is worked on to become the replacement for wget.
+This comparison will eventually get wget2 details as well.
 
 Some have argued that I should compare uploading capabilities with
 [wput](http://wput.sourceforge.net), but that's a separate tool/project and I
