@@ -196,9 +196,9 @@ TWUS: Backslashes should be converted to slashes and then treated as such!
 ## Fragment
 
 Web browsers have not decided entirely on how fragments work, at least not for
-`data:` URLs. Should they support framgments or not? <a
-href="https://bugs.webkit.org/show_bug.cgi?id=68089">Webkit</a> differs from
-the others.
+`data:` URLs. Should they support framgments or not?
+[Webkit](https://bugs.webkit.org/show_bug.cgi?id=68089) differs from the
+others.
 
 # Test suite
 
