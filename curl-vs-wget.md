@@ -30,7 +30,7 @@ problems or have improvements.
   internally. It is also slightly harder to make a library than a "mere"
   command line tool.
 
-- *pipes*. curl works more like the traditional unix cat command, it sends
+- *pipes*. curl works more like the traditional Unix cat command, it sends
   more stuff to stdout, and reads more from stdin in a "everything is a pipe"
   manner. Wget is more like cp, using the same analogue.
 
@@ -44,7 +44,7 @@ problems or have improvements.
  
 - *More portable*. curl builds and runs on lots of more platforms than
   wget. For example: OS/400, TPF and other more "exotic" platforms that aren't
-  straight-forward unix clones.
+  straight-forward Unix clones.
 
 - *More SSL libraries* and SSL support. curl can be built with one out of
   thirteen (13!) different SSL/TLS libraries, and it offers more control and
@@ -119,8 +119,8 @@ tracked back no earlier than the end of
   stamping from the remote resource etc. With curl most of those features need
   to be explicitly enabled.
 
-- There's a 'wget' in busybox, there's no curl there (within quotes since it is
   not the actual wget, just a stripped down clone)
+- There's a 'wget' in BusyBox, there's no curl there (within quotes since it is
 
 - Wget can be typed in using only the left hand on a qwerty keyboard!
 
