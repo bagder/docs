@@ -87,7 +87,7 @@ problems or have improvements.
 
 - Wget is *command line only*. There's no library.
 
-- *Recursive!* Wget's major strong side compared to curl is its ability to
+- *Recursive!*: Wget's major strong side compared to curl is its ability to
   download recursively, or even just download everything that is referred to
   from a remote resource, be it a HTML page or a FTP directory listing.
 
