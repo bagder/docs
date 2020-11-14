@@ -61,25 +61,25 @@ problems or have improvements.
 
 - *HTTP multipart/form-data* sending, which allows users to do HTTP
   "upload" and in general emulate browsers and do HTTP automation to a wider
-  extent
+  extent.
 
 - curl supports gzip, brotli, zstd and deflate Content-Encoding and does
-  *automatic decompression*
+  *automatic decompression*.
 
 - curl offers and performs decompression of *Transfer-Encoded HTTP*, wget
-  doesn't
+  doesn't.
 
 - curl supports *HTTP/2*, *HTTP/3*, *alt-svc* and it does dual-stack connects
-  using *Happy Eyeballs*
+  using *Happy Eyeballs*.
 
-- curl can do many transfers in parallel (`-Z`)
+- curl can do many transfers in parallel (`-Z`).
 
 - *Much more developer activity*. While this can be debated, I consider three
   metrics here: mailing list activity, source code commit frequency and
   release frequency. Anyone following these two projects can see that the curl
   project has a lot higher pace in all these areas, and it has been so for 15+
   years. [Compare on
-  openhub](https://www.openhub.net/p/_compare?project_0=cURL&project_1=Wget)
+  openhub](https://www.openhub.net/p/_compare?project_0=cURL&project_1=Wget).
 
 - curl comes pre-installed on macOS and Windows 10. Wget does not.
 
@@ -106,11 +106,11 @@ tracked back no earlier than the end of
 - Wget requires *no extra options* to simply download a remote URL to a local
   file, while curl requires -o or -O.
 
-- Wget supports only *GnuTLS or OpenSSL* for SSL/TLS support
+- Wget supports only *GnuTLS or OpenSSL* for SSL/TLS support.
 
-- Wget supports only *Basic* auth as the only auth type over HTTP proxy
+- Wget supports only *Basic* auth as the only auth type over HTTP proxy.
 
-- Wget has no SOCKS support
+- Wget has no SOCKS support.
 
 - Its ability to recover from a prematurely broken transfer and *continue
   downloading* has no counterpart in curl.
@@ -119,8 +119,8 @@ tracked back no earlier than the end of
   stamping from the remote resource etc. With curl most of those features need
   to be explicitly enabled.
 
-  not the actual wget, just a stripped down clone)
 - There's a 'wget' in BusyBox, there's no curl there (within quotes since it is
+  not the actual wget, just a stripped down clone).
 
 - Wget can be typed in using only the left hand on a qwerty keyboard!
 
