@@ -24,7 +24,7 @@ problems or have improvements.
 
 ### curl
 
-- *library*. curl is powered by *libcurl* - a cross-platform library with a
+- *library*: curl is powered by *libcurl* - a cross-platform library with a
   stable API that can be used by each and everyone. This difference is major
   since it creates a completely different attitude on how to do things
   internally. It is also slightly harder to make a library than a "mere"
@@ -34,29 +34,29 @@ problems or have improvements.
   more stuff to stdout, and reads more from stdin in a "everything is a pipe"
   manner. Wget is more like cp, using the same analogue.
 
-- *Single shot*. curl is basically made to do single-shot transfers of
+- *Single shot*: curl is basically made to do single-shot transfers of
   data. It transfers just the URLs that the user specifies, and does not
   contain any recursive downloading logic nor any sort of HTML parser.
 
-- *More protocols*. curl supports FTP(S), Gopher, HTTP(S), SCP, SFTP, TFTP,
+- *More protocols*: curl supports FTP(S), Gopher, HTTP(S), SCP, SFTP, TFTP,
   TELNET, DICT, LDAP(S), MQTT, FILE, POP3(S), IMAP(S), SMB/CIFS, SMTP(S), RTMP
   and RTSP. Wget supports HTTP(S) and FTP.
  
-- *More portable*. curl builds and runs on lots of more platforms than
+- *More portable*: curl builds and runs on lots of more platforms than
   wget. For example: OS/400, TPF and other more "exotic" platforms that aren't
   straight-forward Unix clones.
 
-- *More SSL libraries* and SSL support. curl can be built with one out of
+- *More SSL libraries* and SSL support: curl can be built with one out of
   thirteen (13!) different SSL/TLS libraries, and it offers more control and
   wider support for protocol details.
 
-- *HTTP auth*. curl supports more HTTP authentication methods,
+- *HTTP auth*: curl supports more HTTP authentication methods,
   especially over HTTP proxies: Basic, Digest, NTLM and Negotiate
 
-- *SOCKS*. curl supports SOCKS4 and SOCKS5 for proxy access. With local or
+- *SOCKS*: curl supports SOCKS4 and SOCKS5 for proxy access. With local or
   proxy based name resolving.
 
-- *Bidirectional*. curl offers upload and sending capabilities. Wget
+- *Bidirectional*: curl offers upload and sending capabilities. Wget
   only offers plain HTTP POST support.
 
 - *HTTP multipart/form-data* sending, which allows users to do HTTP
@@ -91,14 +91,14 @@ problems or have improvements.
   download recursively, or even just download everything that is referred to
   from a remote resource, be it a HTML page or a FTP directory listing.
 
-- *Older*. Wget has traces back to
+- *Older*: Wget has traces back to
   [1995](http://en.wikipedia.org/wiki/Wget#History), while curl can be
 tracked back no earlier than the end of
   [1996](http://curl.haxx.se/docs/history.html).
 
-- *GPL*. Wget is *GPL v3*. curl is *MIT licensed*.
+- *GPL*: Wget is *GPL v3*. curl is *MIT licensed*.
 
-- *GNU*. Wget is part of the *GNU* project and all copyrights are assigned to
+- *GNU*: Wget is part of the *GNU* project and all copyrights are assigned to
   *FSF*. The curl project is entirely stand-alone and independent with no
   organization parenting at all with almost all copyrights owned by
   *Daniel*.
