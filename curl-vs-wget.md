@@ -91,10 +91,9 @@ problems or have improvements.
   download recursively, or even just download everything that is referred to
   from a remote resource, be it a HTML page or a FTP directory listing.
 
-- *Older*: Wget has traces back to
-  [1995](http://en.wikipedia.org/wiki/Wget#History), while curl can be
-tracked back no earlier than the end of
-  [1996](http://curl.haxx.se/docs/history.html).
+- *Older*: Wget has traces back to its predecessor from
+  [January 9, 1996](https://ftp.sunet.se/mirror/archive/ftp.sunet.se/pub/www/utilities/wget/old-versions/), while curl can be
+tracked back no earlier than to [November 11, 1996](https://curl.se/docs/history.html).
 
 - *GPL*: Wget is *GPL v3*. curl is *MIT licensed*.
 
