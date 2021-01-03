@@ -39,7 +39,7 @@ problems or have improvements.
   contain any recursive downloading logic nor any sort of HTML parser.
 
 - *More protocols*: curl supports FTP(S), GOPHER(S), HTTP(S), SCP, SFTP, TFTP,
-  TELNET, DICT, LDAP(S), MQTT, FILE, POP3(S), IMAP(S), SMB/CIFS, SMTP(S), RTMP
+  TELNET, DICT, LDAP(S), MQTT, FILE, POP3(S), IMAP(S), SMB(S), SMTP(S), RTMP
   and RTSP. Wget supports HTTP(S) and FTP.
  
 - *More portable*: curl builds and runs on lots of more platforms than
