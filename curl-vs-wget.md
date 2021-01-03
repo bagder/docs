@@ -1,7 +1,7 @@
 # curl vs Wget
 
 The main differences as I (Daniel Stenberg) see them. Please consider my bias
-towards [curl](http://curl.haxx.se) since after all, curl is my baby - but I
+towards [curl](https://curl.se) since after all, curl is my baby - but I
 contribute to [Wget](http://www.gnu.org/software/wget/) as well.
 
 Please let me know if you have other thoughts or comments on this document.
@@ -138,7 +138,7 @@ Two other capable tools with similar feature set include
 
 For a stricter feature by feature comparison (that also compares other similar
 tools), see the [curl comparison
-table](http://curl.haxx.se/docs/comparison-table.html)
+table](https://curl.se/docs/comparison-table.html)
 
 ## Thanks
 
