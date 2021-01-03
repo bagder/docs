@@ -38,7 +38,7 @@ problems or have improvements.
   data. It transfers just the URLs that the user specifies, and does not
   contain any recursive downloading logic nor any sort of HTML parser.
 
-- *More protocols*: curl supports FTP(S), Gopher, HTTP(S), SCP, SFTP, TFTP,
+- *More protocols*: curl supports FTP(S), GOPHER(S), HTTP(S), SCP, SFTP, TFTP,
   TELNET, DICT, LDAP(S), MQTT, FILE, POP3(S), IMAP(S), SMB/CIFS, SMTP(S), RTMP
   and RTSP. Wget supports HTTP(S) and FTP.
  
