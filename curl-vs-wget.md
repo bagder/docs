@@ -11,14 +11,14 @@ problems or have improvements.
 
 ## What both commands do
 
-- both are command line tools that can download contents from FTP, HTTP and
-  HTTPS
+- both are command line tools that can download contents from FTP, HTTP(S)
 - both can send HTTP POST requests
 - both support HTTP cookies
-- both are designed to work without user interaction, like from within scripts
+- both support metalink, HSTS and HTTP proxy
+- both are designed to work without user interaction
 - both are fully open source and free software
-- both projects were started in the 90s
-- both support *metalink*
+- both projects started in 1996 (under other names)
+- both are portable and run on many operating systems
 
 ## How they differ
 
