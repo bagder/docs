@@ -128,10 +128,6 @@ tracked back no earlier than to [November 11, 1996](https://curl.se/docs/history
 In recent years, **wget2** is worked on to become the replacement for wget.
 This comparison will eventually get wget2 details as well.
 
-Some have argued that I should compare uploading capabilities with
-[wput](http://wput.sourceforge.net), but that's a separate tool/project and I
-don't include that in this comparison.
-
 Two other capable tools with similar feature set include
 [aria2](http://aria2.sourceforge.net/) and
 [axel](http://axel.alioth.debian.org) (dead project?) - try them out!
