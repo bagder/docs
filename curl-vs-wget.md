@@ -129,8 +129,8 @@ In recent years, **wget2** is worked on to become the replacement for wget.
 This comparison will eventually get wget2 details as well.
 
 Two other capable tools with similar feature set include
-[aria2](http://aria2.sourceforge.net/) and
-[axel](http://axel.alioth.debian.org) (dead project?) - try them out!
+[aria2](https://aria2.github.io/) and
+[axel](https://github.com/axel-download-accelerator/axel) - try them out!
 
 For a stricter feature by feature comparison (that also compares other similar
 tools), see the [curl comparison
