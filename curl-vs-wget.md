@@ -44,7 +44,7 @@ problems or have improvements.
  
 - *More portable*: curl builds and runs on lots of more platforms than
   wget. For example: OS/400, TPF and other more "exotic" platforms that aren't
-  straight-forward Unix clones.
+  straight-forward Unix clones. curl requires but a C89 compiler.
 
 - *More SSL libraries* and SSL support: curl can be built with one out of
   thirteen (13!) different SSL/TLS libraries, and it offers more control and
@@ -118,10 +118,12 @@ tracked back no earlier than to [November 11, 1996](https://curl.se/docs/history
   stamping from the remote resource etc. With curl most of those features need
   to be explicitly enabled.
 
-- There's a 'wget' in BusyBox, there's no curl there (within quotes since it is
-  not the actual wget, just a stripped down clone).
+- There's a 'wget' in BusyBox, there's no curl there (it is not the actual
+  wget, just a stripped down clone with the same name).
 
 - Wget can be typed in using only the left hand on a qwerty keyboard!
+
+- Wget requires a C99 compiler and also relies on gnulib.
 
 ## Additional Stuff
 
