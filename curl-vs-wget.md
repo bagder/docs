@@ -20,9 +20,9 @@ problems or have improvements.
 - both projects started in 1996 (under other names)
 - both are portable and run on many operating systems
 
-## How they differ
+# How they differ
 
-### curl
+## curl
 
 - *library*: curl is powered by *libcurl* - a cross-platform library with a
   stable API that can be used by each and everyone. This difference is major
@@ -83,7 +83,7 @@ problems or have improvements.
 
 - curl comes pre-installed on macOS and Windows 10. Wget does not.
 
-### Wget
+## Wget
 
 - Wget is *command line only*. There's no library.
 
@@ -125,7 +125,17 @@ tracked back no earlier than to [November 11, 1996](https://curl.se/docs/history
 
 - Wget requires a C99 compiler and also relies on gnulib.
 
-## Additional Stuff
+# When to use which
+
+Primarily: use the one that gets the job done for you.
+
+Wget has (recursive) downloading powers that curl does not feature and it also
+handle download retries over unreliable connections possibly slightly more
+effective.
+
+For just about everything else, curl is probably the more suitable tool.
+
+# Additional Stuff
 
 In recent years, **wget2** is worked on to become the replacement for wget.
 This comparison will eventually get wget2 details as well.
@@ -138,6 +148,6 @@ For a stricter feature by feature comparison (that also compares other similar
 tools), see the [curl comparison
 table](https://curl.se/docs/comparison-table.html)
 
-## Thanks
+# Thanks
 
   Feedback and improvements by: Micah Cowan, Olemis Lang
