@@ -56,7 +56,7 @@
  descriptors by changing the `FD_SETSIZE` define.
 
  poll offers somewhat more flavors of events to wait for, and to receive,
- although for most common networked cases they don't add a lot of value
+ although for most common networked cases they don't add a lot of value.
 
  Different timeout values. poll takes milliseconds, select takes a struct
  timeval pointer that offers microsecond resolution. In practice however,
@@ -100,11 +100,11 @@
 
  **select** - has existed for a great while and exists almost everywhere. A
  problem with many file descriptors is that you cannot know if you will
- overflow the the bitmask as you can't check the file descriptor against
+ overflow the bitmask as you can't check the file descriptor against
  `FD_SETSIZE` in a portable manner.
  
  Many unix versions allow `FD_SETSIZE` to be re-defined at compile time, but
- Linux does not
+ Linux does not.
 
  One quirk is that the include header required for the `fd_set` type
  varies between systems.
