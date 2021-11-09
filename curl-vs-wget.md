@@ -55,6 +55,8 @@ problems or have improvements.
 
 - *SOCKS*: curl supports SOCKS4 and SOCKS5 for proxy access. With local or
   proxy based name resolving.
+  
+- curl supports *HTTPS proxy*, that is HTTPS to the proxy. wget does not.
 
 - *Bidirectional*: curl offers upload and sending capabilities. Wget
   only offers plain HTTP POST support.
@@ -69,8 +71,9 @@ problems or have improvements.
 - curl offers and performs decompression of *Transfer-Encoded HTTP*, wget
   doesn't.
 
-- curl supports *HTTP/2*, *HTTP/3*, *alt-svc* and it does dual-stack connects
-  using *Happy Eyeballs*.
+- curl supports *HTTP/2*, *HTTP/3* and *alt-svc*
+
+- curl does dual-stack (IPv4 + IPv6) connects using *Happy Eyeballs*
 
 - curl can do many transfers in parallel (`-Z`).
 
