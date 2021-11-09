@@ -14,7 +14,7 @@ problems or have improvements.
 - both are command line tools that can download contents from FTP, HTTP(S)
 - both can send HTTP POST requests
 - both support HTTP cookies
-- both support metalink, HSTS and HTTP proxy
+- both support HSTS and HTTP proxy
 - both are designed to work without user interaction
 - both are fully open source and free software
 - both projects started in 1996 (under other names)
@@ -116,6 +116,9 @@ tracked back no earlier than to [November 11, 1996](https://curl.se/docs/history
 
 - Its ability to recover from a prematurely broken transfer and *continue
   downloading* has no counterpart in curl.
+
+- Wget still supports metalink, curl dropped that support due to security
+  concerns
 
 - Wget enables more features by default: cookies, redirect-following, time
   stamping from the remote resource etc. With curl most of those features need
