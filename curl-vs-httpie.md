@@ -1,4 +1,4 @@
-# [curl](https://curl.haxx.se/) vs [HTTPie](https://github.com/jkbrzt/httpie)
+# [curl](https://curl.se/) vs [HTTPie](https://github.com/jkbrzt/httpie)
 
 The main differences as I (Daniel Stenberg) see them. Please consider my bias towards curl since after all, curl is my baby.
 
@@ -28,7 +28,7 @@ curl 7.51.0 needed 25 seconds. **3276 MB/sec**
 - supports any amount of URLs on the command line
 - can send binary POSTs
 - Supports multiple HTTP methods in a single command line for different URLs
-- Documented in a [man page](https://curl.haxx.se/docs/manpage.html) for offline documentation
+- Documented in a [man page](https://curl.se/docs/manpage.html) for offline documentation
 - supports HTTP/1.0 requests
 - features URL "globbing" for ranges and sequences
 - Allows more invasive header modifications, like passing in invalid letters
@@ -37,8 +37,8 @@ curl 7.51.0 needed 25 seconds. **3276 MB/sec**
   after the colon.
 - Supports happy eyeballs or explicit ipv4/ipv6 use
 - Supports custom connection tricks like with [--resolve
-  ](https://curl.haxx.se/docs/manpage.html#--resolve) and
-  [--connect-to](https://curl.haxx.se/docs/manpage.html#--connect-to)
+  ](https://curl.se/docs/manpage.html#--resolve) and
+  [--connect-to](https://curl.se/docs/manpage.html#--connect-to)
 - HTTP/2 support (for both HTTP:// and HTTPS:// URLs)
 - HTTP/3 support
 - Offers compression using gzip, brotli and zstd
