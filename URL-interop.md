@@ -148,7 +148,7 @@ TWUS: limits the number to a 16bit unsigned value (0-65535) while 86 has no such
 
 Real world: at least curl and wget2 ignore "rubbish" entered after the number
 all the way to the next component divider (a slash, a pound sign, or a
-question mark). That seems to be a bug according go both 86 and TWUS.
+question mark). That seems to be a bug according to both 86 and TWUS.
 
 Also, when using URLs containing multiple port numbers like "http://[127.0.0.1]:11211:80", many URL parsers (Ruby, JavaScript, PHP, perl) will extract and use the latter port number (80) and ignore the first one, some other parsers will extract and use the first one and some will report errors...
 
