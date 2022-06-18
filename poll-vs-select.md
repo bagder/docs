@@ -34,7 +34,7 @@
 
  select() was introduced in 4.2BSD Unix, released in August 1983.
 
- poll() was introduced in SVR3 Unix, released 1986. In Linux, the poll()
+ poll() was introduced in SVR3 Unix, released 1987. In Linux, the poll()
  system call was introduced in 2.1.23 (January 1997) while the poll() library
  call was introduced in libc 5.4.28 (May 1997)
 
