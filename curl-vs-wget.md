@@ -50,8 +50,8 @@ problems or have improvements.
   thirteen (13!) different SSL/TLS libraries, and it offers more control and
   wider support for protocol details.
 
-- *HTTP auth*: curl supports more HTTP authentication methods,
-  especially over HTTP proxies: Basic, Digest, NTLM and Negotiate
+- *HTTP auth*: curl supports more HTTP authentication methods, especially over
+  HTTP proxies: Basic, Digest, NTLM, Negotiate and AWS v4 signatures.
 
 - *SOCKS*: curl supports SOCKS4 and SOCKS5 for proxy access. With local or
   proxy based name resolving.
