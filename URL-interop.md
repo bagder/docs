@@ -85,7 +85,7 @@ TWUS: instead takes the last '@' before the host name to be the separator
 
 ## Hostname
 
-### Numerical IP addresses
+### Numerical IPv4 addresses
 
 86: mentions how [IPv4 addresses with a
 dot-notation](https://tools.ietf.org/html/rfc3986#section-3.2.2) are valid
@@ -96,6 +96,14 @@ dot-addresses ("127.0") are valid.
 Real world: 32 bit numbers occur, and are automatically supported if typical
 OS level name resolver functions are used since they often support this out of
 the box.
+
+### Numerical IPv6 addresses
+
+[RFC 6874](https://www.rfc-editor.org/rfc/rfc6874) documents how to provide
+the "zone id" with the IPv6 address. curl's URL parser (for example) detects
+and recognizes this.
+
+TWUS: does not allow zone id for IPv6 addresses.
 
 ### Different base numericals
 
