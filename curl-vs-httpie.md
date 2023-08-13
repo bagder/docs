@@ -60,7 +60,8 @@ curl 7.51.0 needed 25 seconds. **3276 MB/sec**
 - Has an "Auth plugin" system that supports many more auth types than curl
 - Can't send the same header field name multiple times in a request.
 - Has no official man page
-- No HTTP/2 or HTTP/3 support
+- No HTTP/2 support
+- No HTTP/3 support
 - No Happy eyeballs
 - Lacks HTTPS proxy support (HTTPS to the proxy, independently of the server's protocol)
 - Missing brotli and zstd support
