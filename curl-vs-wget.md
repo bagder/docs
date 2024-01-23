@@ -71,7 +71,11 @@ problems or have improvements.
 - curl offers and performs decompression of *Transfer-Encoded HTTP*, wget
   doesn't.
 
-- curl supports *HTTP/2*, *HTTP/3* and *alt-svc*
+- curl supports **HTTP/0.9**, **HTTP/1.0**, **HTTP/1.1**, **HTTP/2** and
+  **HTTP/3** to the server and **HTTP/1** and **HTTP/2** to proxies.  wget
+  supports 1.0 and 1.1 and only HTTP/1 to proxies.
+
+- curl supports *alt-svc*
 
 - curl does dual-stack (IPv4 + IPv6) connects using *Happy Eyeballs*
 
