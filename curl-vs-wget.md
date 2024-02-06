@@ -47,7 +47,7 @@ problems or have improvements.
   straight-forward Unix clones. curl requires but a C89 compiler.
 
 - *More SSL libraries* and SSL support: curl can be built with one out of
-  thirteen (13!) different SSL/TLS libraries, and it offers more control and
+  twelve (12!) different SSL/TLS libraries, and it offers more control and
   wider support for protocol details.
 
 - *HTTP auth*: curl supports more HTTP authentication methods, especially over
@@ -79,7 +79,7 @@ problems or have improvements.
 
 - curl does dual-stack (IPv4 + IPv6) connects using *Happy Eyeballs*
 
-- curl can do many transfers in parallel (`-Z`).
+- curl can do many transfers in parallel (`-Z`). wget only does serial.
 
 - *Much more developer activity*. While this can be debated, I consider three
   metrics here: mailing list activity, source code commit frequency and
