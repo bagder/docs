@@ -43,7 +43,7 @@ problems or have improvements.
   RTSP and WS(S). Wget only supports HTTP(S) and FTP.
  
 - *More portable*: curl builds and runs on lots of more platforms than
-  wget. For example: OS/400, TPF and other more "exotic" platforms that aren't
+  Wget. For example: OS/400, TPF and other more "exotic" platforms that aren't
   straight-forward Unix clones. curl requires but a C89 compiler.
 
 - *More SSL libraries* and SSL support: curl can be built with one out of
@@ -56,7 +56,7 @@ problems or have improvements.
 - *SOCKS*: curl supports SOCKS4 and SOCKS5 for proxy access. With local or
   proxy based name resolving.
   
-- curl supports *HTTPS proxy*, that is HTTPS to the proxy. wget does not.
+- curl supports *HTTPS proxy*, that is HTTPS to the proxy. Wget does not.
 
 - *Bidirectional*: curl offers upload and sending capabilities. Wget
   only offers plain HTTP POST support.
@@ -68,18 +68,18 @@ problems or have improvements.
 - curl supports gzip, brotli, zstd and deflate Content-Encoding and does
   *automatic decompression*.
 
-- curl offers and performs decompression of *Transfer-Encoded HTTP*, wget
+- curl offers and performs decompression of *Transfer-Encoded HTTP*, Wget
   doesn't.
 
 - curl supports **HTTP/0.9**, **HTTP/1.0**, **HTTP/1.1**, **HTTP/2** and
-  **HTTP/3** to the server and **HTTP/1** and **HTTP/2** to proxies.  wget
+  **HTTP/3** to the server and **HTTP/1** and **HTTP/2** to proxies.  Wget
   supports 1.0 and 1.1 and only HTTP/1 to proxies.
 
 - curl supports *alt-svc*
 
 - curl does dual-stack (IPv4 + IPv6) connects using *Happy Eyeballs*
 
-- curl can do many transfers in parallel (`-Z`). wget only does serial.
+- curl can do many transfers in parallel (`-Z`). Wget only does serial.
 
 - *Much more developer activity*. While this can be debated, I consider three
   metrics here: mailing list activity, source code commit frequency and
@@ -88,7 +88,7 @@ problems or have improvements.
   years. [Compare on
   openhub](https://www.openhub.net/p/_compare?project_0=cURL&project_1=Wget).
 
-- curl comes pre-installed on macOS and Windows 10. Wget does not.
+- curl comes pre-installed on macOS and Windows 10/11. Wget does not.
 
 ## Wget
 
@@ -99,7 +99,7 @@ problems or have improvements.
   from a remote resource, be it a HTML page or a FTP directory listing.
 
 - *Older*: Wget has traces back to its predecessor from
-  [January 9, 1996](https://ftp.sunet.se/mirror/archive/ftp.sunet.se/pub/www/utilities/wget/old-versions/), while curl can be
+  [January 9, 1996](https://ftp.sunet.se/mirror/archive/ftp.sunet.se/pub/www/utilities/Wget/old-versions/), while curl can be
 tracked back no earlier than to [November 11, 1996](https://curl.se/docs/history.html).
 
 - *GPL*: Wget is *GPL v3*. curl is *MIT licensed*.
@@ -128,8 +128,8 @@ tracked back no earlier than to [November 11, 1996](https://curl.se/docs/history
   stamping from the remote resource etc. With curl most of those features need
   to be explicitly enabled.
 
-- There's a 'wget' in BusyBox, there's no curl there (it is not the actual
-  wget, just a stripped down clone with the same name).
+- There's a 'Wget' in BusyBox, there's no curl there (it is not the actual
+  Wget, just a stripped down clone with the same name).
 
 - Wget can be typed in using only the left hand on a qwerty keyboard!
 
@@ -147,8 +147,8 @@ For just about everything else, curl is probably the more suitable tool.
 
 # Additional Stuff
 
-In recent years, **wget2** is worked on to become the replacement for wget.
-This comparison will eventually get wget2 details as well.
+In recent years, **Wget2** is worked on to become the replacement for Wget.
+This comparison will eventually get Wget2 details as well.
 
 Two other capable tools with similar feature set include
 [aria2](https://aria2.github.io/) and
