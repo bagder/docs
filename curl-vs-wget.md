@@ -101,7 +101,7 @@ problems or have improvements.
   from a remote resource, be it a HTML page or a FTP directory listing.
 
 - *Older*: Wget has traces back to its predecessor from
-  [January 9, 1996](https://ftp.sunet.se/mirror/archive/ftp.sunet.se/pub/www/utilities/Wget/old-versions/), while curl can be
+  [January 9, 1996](https://web.archive.org/web/20250308152804/https://ftp.sunet.se/mirror/archive/ftp.sunet.se/pub/www/utilities/Wget/old-versions/), while curl can be
 tracked back no earlier than to [November 11, 1996](https://curl.se/docs/history.html).
 
 - *GPL*: Wget is *GPL v3*. curl is *MIT licensed*.
