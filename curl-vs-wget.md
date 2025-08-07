@@ -158,6 +158,9 @@ For a stricter feature by feature comparison (that also compares other similar
 tools), see the [curl comparison
 table](https://curl.se/docs/comparison-table.html)
 
+[wcurl](https://curl.se/wcurl) is a tool by the curl project that like Wget
+can download URLs without needing any additional options.
+
 # Thanks
 
   Feedback and improvements by: Micah Cowan, Olemis Lang
