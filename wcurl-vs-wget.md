@@ -28,6 +28,8 @@ problems or have improvements to this comparison.
 
 - curl licensed
 
+- supports all the URL schemes curl does, many more than wget
+
 ## Wget
 
 - a stand-alone executable
