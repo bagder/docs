@@ -30,6 +30,10 @@ problems or have improvements to this comparison.
 
 - supports all the URL schemes curl does, many more than wget
 
+- happy eyeballs connections
+
+- is a little complicated to run on Windows
+
 ## Wget
 
 - a stand-alone executable
