@@ -4,6 +4,7 @@ The main differences.
 
 * [wcurl](https://curl.se/wcurl) 
 * [Wget](http://www.gnu.org/software/wget/)
+* [Wget2](https://gitlab.com/gnuwget/wget2)
 
 [File issues or pull-requests](https://github.com/bagder/docs) if you find
 problems or have improvements to this comparison.
@@ -34,11 +35,15 @@ problems or have improvements to this comparison.
 
 - is a little complicated to run on Windows
 
-## Wget
+- supports HTTP/1 and HTTP/2 by default, can do HTTP/3 with some determination
+
+## Wget / Wget2
 
 - a stand-alone executable
 
-- downloads URLs serially
+- downloads URLs serially (Wget2 uses parallel transfers)
+
+- supports only HTTP/1 (Wget2 also does HTTP/2, neither does HTTP/3)
 
 - *Recursive!*: Wget's major strong side compared to wcurl is its ability to
   download recursively, or even just download everything that is referred to
